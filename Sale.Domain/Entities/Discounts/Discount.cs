@@ -1,4 +1,5 @@
 ﻿using Sale.Domain.Entities.Base;
+using Sale.Domain.Entities.Products;
 
 
 namespace Sale.Domain.Entities.Discounts
@@ -10,6 +11,7 @@ namespace Sale.Domain.Entities.Discounts
         public DateTime ToDate { get; set; }
         public string Description { get; set; }
         public float Percentage { get; set; }
-        public decimal Price { get; set; }        
+        public decimal Price { get; set; }
+        public Product Product { get; set; }
     }
 }

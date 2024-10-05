@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Sale.Domain.Enumerations
 {
-    public enum ProductStatus
+    public enum ProductStatus:byte
     {
         Unknown,
-        Salable =1,
-        Unsellable =2,
-
+        Salable = 1,
+        Unsellable = 2,
     }
 }

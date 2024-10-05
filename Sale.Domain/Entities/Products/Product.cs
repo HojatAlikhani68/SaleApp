@@ -3,6 +3,8 @@ using Sale.Domain.Entities.Discounts;
 using Sale.Domain.Entities.Promotions;
 using Sale.Domain.Enumerations;
 using SaleApp.Shared;
+using System.ComponentModel.DataAnnotations;
+using System.Data;
 
 namespace Sale.Domain.Entities.Products
 {

@@ -16,7 +16,7 @@ namespace Sale.Domain.Entities.Products
         public int ParentId { get; set; }
         public bool IsActive { get; set; }
         public IEnumerable<ProductCategory> ProductCategories { get; set; } = [];
-        public IEnumerable<Product> Products { get; set; }
+        public IEnumerable<Product> Products { get; set; } = [];
     }
 
 }

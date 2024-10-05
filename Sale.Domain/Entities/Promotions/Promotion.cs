@@ -1,4 +1,5 @@
 ﻿using Sale.Domain.Entities.Base;
+using Sale.Domain.Entities.Products;
 
 namespace Sale.Domain.Entities.Promotions
 {
@@ -9,5 +10,6 @@ namespace Sale.Domain.Entities.Promotions
         public DateTime ToDate { get; set; }
         public string Description { get; set; }
         public double Quantity { get; set; }
+        public Product Product { get; set; }
     }
 }
