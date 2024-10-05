@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Contracts\" />
-    <Folder Include="Enumerations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaleApp.Shared\SaleApp.Shared.csproj" />
   </ItemGroup>
 
 </Project>

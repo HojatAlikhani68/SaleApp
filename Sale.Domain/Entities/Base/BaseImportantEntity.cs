@@ -1,6 +1,6 @@
 ﻿namespace Sale.Domain.Entities.Base
 {
-    public abstract class BaseDocumentEntity<TKey> : BaseEntity<TKey>
+    public abstract class BaseImportantEntity<TKey> : BaseEntity<TKey>
     {
         public DateTime DateTime { get; set; }
         public int UserInsert { get; set; } = 0;
