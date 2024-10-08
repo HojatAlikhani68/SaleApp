@@ -12,7 +12,8 @@ namespace Sale.Domain.Entities.Warehouses
         public Size3D Size { get; set; }
         public bool CanSale { get; set; }
         public bool IsActive { get; set; }
+        public bool IsLocked { get; set; }
+        public sbyte Temperature { get; set; }
         public Address Address { get; set; }
-        public bool IsLocked { get; set; } = false;
     }
 }

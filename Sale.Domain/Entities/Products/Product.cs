@@ -4,27 +4,24 @@ using Sale.Domain.Entities.Promotions;
 using Sale.Domain.Entities.Suppliers;
 using Sale.Domain.Enumerations;
 using SaleApp.Shared;
-using System.ComponentModel.DataAnnotations;
-using System.Data;
 
 namespace Sale.Domain.Entities.Products
 {
     public class Product : BaseImportantEntity<int>
     {
-        public string Code { get; set; }
         public required string Name { get; set; }
-        public ProductCategory ProductCategory { get; set; }
-        public double Quantity { get; set; }
-        public decimal UnitPrice { get; set; } 
-        public decimal Price { get; set; }
         public decimal Tax { get; set; }
         public Size3D Size { get; set; }
-        public string Image {  get; set; }
-        public Supplier Supplier { get; set; }
-        public IEnumerable<Promotion> Promotions { get; set; } = [];
-        public IEnumerable<Discount> Discounts { get; set; } = [];
+        public string Image { get; set; }
+        public sbyte Temperature { get; set; }
+        public ushort UntilExpiration { get; set; }
+        public DateOnly ProductionDate { get; set; }
         public ProductStatus Status { get; set; }
-
+        public Supplier Supplier { get; set; }
+        public List<ProductUnit> Units { get; set; }
+        public ProductCategory ProductCategory { get; set; }
+        public List<Promotion> Promotions { get; set; } = [];
+        public List<Discount> Discounts { get; set; } = [];
     }
 
 }

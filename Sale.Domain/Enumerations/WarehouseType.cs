@@ -13,8 +13,5 @@
         Canopy  = 8,
         Refrigerator = 9,
         Essential = 10,
-
-
-
     }
 }
