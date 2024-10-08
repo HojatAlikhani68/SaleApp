@@ -1,12 +1,14 @@
-﻿using Sale.Domain.Entities.Base;
+﻿using SaleApp.Shared;
 
 namespace Sale.Domain.Entities.Geographics
 {
-    public class Address : BaseEntity<int> { }
-    public class Street : BaseEntity<int> { }
-    public class City : BaseEntity<int> { }
-    public class Area : BaseEntity<int> { }
-    public class Region : BaseEntity<int> { }
-    public class State : BaseEntity<int> { }
-    public class Country : BaseEntity<short> { }
+    public class Address : BaseGeographic 
+    {
+        public float Unit { get; set; }
+        public float No { get; set; }
+        public GeoPoint Location { get; set; }
+        public string PostalCode { get; set; }
+        public Street Street { get; set; }
+        public Alley Alley { get; set; }
+    }
 }
