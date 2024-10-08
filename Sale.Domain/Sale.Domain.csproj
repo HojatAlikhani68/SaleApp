@@ -10,8 +10,11 @@
     <Folder Include="Contracts\" />
     <Folder Include="Entities\Logestics\" />
     <Folder Include="Entities\Invoices\" />
-    <Folder Include="Entities\Dispatch\" />
+    <Folder Include="Entities\Shippings\" />
     <Folder Include="Entities\CostCenters\" />
+    <Folder Include="Entities\Cart\" />
+    <Folder Include="Entities\Contracts\" />
+    <Folder Include="Entities\Users\" />
   </ItemGroup>
 
   <ItemGroup>

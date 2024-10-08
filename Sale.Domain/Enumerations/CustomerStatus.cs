@@ -1,6 +1,6 @@
 ﻿namespace Sale.Domain.Enumerations
 {
-    public enum CustomerStatus
+    public enum CustomerStatus : byte
     {
         Unknown,
         Active = 1,
