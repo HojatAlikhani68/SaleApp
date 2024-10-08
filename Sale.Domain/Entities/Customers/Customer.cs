@@ -17,9 +17,7 @@ namespace Sale.Domain.Entities.Customers
         public string? Fax { get; set; }
         public DateTime JoinDate { get; set; }
         public bool IsLegal { get; set; } 
-        public string? Image { get; set; }
-        public string? Notes { get; set; }
-        public bool IsVIP { get; set; }
+        public string Image { get; set; }
         public CustomerGroup PhoneNumber { get; set; }
         public List<Address> Address { get; set; } = [];
 

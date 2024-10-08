@@ -8,8 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Contracts\" />
-    <Folder Include="Entities\Logestics\" />
-    <Folder Include="Entities\Invoices\" />
+    <Folder Include="Entities\Logistics\" />
     <Folder Include="Entities\Shippings\" />
     <Folder Include="Entities\CostCenters\" />
     <Folder Include="Entities\Cart\" />

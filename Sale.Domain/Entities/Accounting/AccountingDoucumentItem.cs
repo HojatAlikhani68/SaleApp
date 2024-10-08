@@ -6,7 +6,6 @@ namespace Sale.Domain.Entities.Accounting
     {
         public int Order { get; set; }        
         public AcountingDetailed Detailed { get; set; }
-        public string Notes { get; set; }
         public decimal Debt { get; set; }
         public decimal Credit { get; set; }
     }

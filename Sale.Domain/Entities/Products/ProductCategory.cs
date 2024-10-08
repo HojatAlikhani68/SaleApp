@@ -12,7 +12,7 @@ namespace Sale.Domain.Entities.Products
     public class ProductCategory:BaseEntity<int>
     {
         public required string Name { get; set; }
-        public string? Description { get; set; }
+        public string Notes { get; set; }
         public int ParentId { get; set; }
         public bool IsActive { get; set; }
         public IEnumerable<ProductCategory> ProductCategories { get; set; } = [];

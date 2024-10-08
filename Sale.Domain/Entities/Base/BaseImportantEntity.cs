@@ -9,9 +9,11 @@ namespace Sale.Domain.Entities.Base
         public int? UserUpdate { get; set; }
         public DateTime InsertDate { get; set; }= DateTime.Now;
         public DateTime? UpdateDate { get; set; }
+        public string Notes { get; set; }
+        public bool IsActive { get; set; }
         [Timestamp]
         public byte Timestamp { get; set; }
-        public bool IsActive { get; set; }
+
 
     }
 }

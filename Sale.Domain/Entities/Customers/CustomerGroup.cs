@@ -6,7 +6,7 @@ namespace Sale.Domain.Entities.Customers
     {
         public short ParentId { get; set; }
         public required string Name { get; set; }
-        public string? Description { get; set; }
+        public string Notes { get; set; }
         public List<Customer> Customers { get; set; } = [];
     }
 

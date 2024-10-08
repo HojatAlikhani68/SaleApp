@@ -1,6 +1,7 @@
 ﻿using Sale.Domain.Entities.Base;
 using Sale.Domain.Entities.Discounts;
 using Sale.Domain.Entities.Promotions;
+using Sale.Domain.Entities.Suppliers;
 using Sale.Domain.Enumerations;
 using SaleApp.Shared;
 using System.ComponentModel.DataAnnotations;
@@ -12,7 +13,6 @@ namespace Sale.Domain.Entities.Products
     {
         public string Code { get; set; }
         public required string Name { get; set; }
-        public string? Description { get; set; }
         public ProductCategory ProductCategory { get; set; }
         public double Quantity { get; set; }
         public decimal UnitPrice { get; set; } 

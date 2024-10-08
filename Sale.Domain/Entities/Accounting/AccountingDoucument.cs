@@ -8,7 +8,6 @@ namespace Sale.Domain.Entities.Accounting
         public string Code { get; set; }
         public DateOnly Date  { get; set; }
         public AccountingDocumentType Type { get; set; }
-        public string Notes { get; set; }
         public string Attachment { get; set; }
         public bool IsLock { get; set; }
         public AccountingYear Year { get; set; }        
