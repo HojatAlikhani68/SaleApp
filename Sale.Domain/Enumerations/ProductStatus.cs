@@ -10,6 +10,6 @@ namespace Sale.Domain.Enumerations
     {
         Unknown,
         Salable = 1,
-        Unsellable = 2,
+        UnSellable = 2,
     }
 }

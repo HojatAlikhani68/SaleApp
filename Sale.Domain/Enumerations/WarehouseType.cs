@@ -10,5 +10,9 @@
         Secondary = 5,
         Equipment = 6,
         Temporary = 7,
+        Canopy  = 8,
+        Refrigerator = 9,
+
+
     }
 }
