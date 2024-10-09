@@ -8,7 +8,7 @@ namespace Sale.Domain.Entities.Products
         public Product Product { get; set; }
         public Warehouse Warehouse { get; set; }
         public ProductUnit ProductUnit { get; set; }
-        public double Inventory {  get; set; }
+        public double Quantity {  get; set; }
         public bool IsLock { get; set; }
     }
 

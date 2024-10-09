@@ -1,6 +1,6 @@
 ﻿namespace Sale.Domain.Enumerations
 {
-    public enum PersonGenderType : byte
+    public enum PersonGender : byte
     {
         Unknown,
         Male =1,

@@ -7,11 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Sellers\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Entities\Shippings\" />
     <Folder Include="Entities\Cart\" />
-    <Folder Include="Entities\Users\" />
   </ItemGroup>
 
   <ItemGroup>
