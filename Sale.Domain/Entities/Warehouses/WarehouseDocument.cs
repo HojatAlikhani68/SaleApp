@@ -10,6 +10,6 @@ namespace Sale.Domain.Entities.Warehouses
         public Warehouse Warehouse { get; set; }
         public Customer Customer {  get; set; }
         public bool IsWastage { get; set; }
-        public List<WarehouseDocumentItem> WarehouseDocumentItems { get; set; } = [];
+        public ICollection<WarehouseDocumentItem> WarehouseDocumentItems { get; set; } = [];
     }
 }

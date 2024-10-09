@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SaleApp.Shared
+namespace SaleApp.Shared.Structures
 {
     public struct Size3D
     {
@@ -31,7 +31,7 @@ namespace SaleApp.Shared
         public float GetCube()
             => Length * Width * Height;
         public float GetCircumference()
-            => (Length * Width) * 2;
+            => Length * Width * 2;
 
     }
 }

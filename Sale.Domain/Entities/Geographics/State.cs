@@ -3,6 +3,6 @@
     public class State : BaseGeographic
     {
         public City City { get; set; }
-        public List<Region> Regions { get; set; } = [];
+        public ICollection<Region> Regions { get; set; } = [];
     }
 }

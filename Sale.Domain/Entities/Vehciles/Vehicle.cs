@@ -1,6 +1,6 @@
 ﻿using Sale.Domain.Entities.Base;
 using Sale.Domain.Enumerations;
-using SaleApp.Shared;
+using SaleApp.Shared.Structures;
 using System.IO;
 
 namespace Sale.Domain.Entities.Vehciles
@@ -25,7 +25,7 @@ namespace Sale.Domain.Entities.Vehciles
         public byte Weight { get; set; }
         public string Notes { get; set; }
         public bool IsActive { get; set; }
-        public List<Driver> Drivers { get; set; } = [];
+        public ICollection<Driver> Drivers { get; set; } = [];
 
     }
 }

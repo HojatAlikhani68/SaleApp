@@ -1,7 +1,7 @@
 ﻿using Sale.Domain.Entities.Base;
 using Sale.Domain.Entities.Geographics;
 using Sale.Domain.Enumerations;
-using SaleApp.Shared;
+using SaleApp.Shared.Structures;
 
 namespace Sale.Domain.Entities.Warehouses
 {

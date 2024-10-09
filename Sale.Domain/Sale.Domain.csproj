@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Entities\Payments\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Entities\Shippings\" />
     <Folder Include="Entities\Cart\" />

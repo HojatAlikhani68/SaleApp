@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7FD3770E-8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DE371F5B-9641-461A-B4AF-7AC15BAA91FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleApp.Shared", "SaleApp.Shared\SaleApp.Shared.csproj", "{5F6614B2-A93D-4E65-902F-EA357BBEF1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaleApp.Shared", "SaleApp.Shared\SaleApp.Shared.csproj", "{5F6614B2-A93D-4E65-902F-EA357BBEF1D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{97507AA7-B264-4E84-90F5-87F7F8C12186}"
 EndProject
@@ -19,13 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastractures", "Infrastr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndPoints", "EndPoints", "{25E1F0DB-B4C5-4632-BE9B-97A39A7071DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sale.Domain", "Sale.Domain\Sale.Domain.csproj", "{14BEC348-D38B-4249-A49E-F07069E0E383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sale.Domain", "Sale.Domain\Sale.Domain.csproj", "{14BEC348-D38B-4249-A49E-F07069E0E383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sale.Application", "Sale.Application\Sale.Application.csproj", "{77865303-3ADC-43D2-B65F-CF16C6D849A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sale.Application", "Sale.Application\Sale.Application.csproj", "{77865303-3ADC-43D2-B65F-CF16C6D849A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sale.Persistence", "Sale.Persistence\Sale.Persistence.csproj", "{8AD198B4-2F29-4A5F-84A5-5310E936BF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sale.Persistence", "Sale.Persistence\Sale.Persistence.csproj", "{8AD198B4-2F29-4A5F-84A5-5310E936BF8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{EF53BE2A-216D-4BED-86C7-3C3C59A5E016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{EF53BE2A-216D-4BED-86C7-3C3C59A5E016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

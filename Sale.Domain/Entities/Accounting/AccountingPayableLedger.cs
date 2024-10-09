@@ -7,7 +7,7 @@ namespace Sale.Domain.Entities.Accounting
         public string Code { get; set; }
         public string Name { get; set; }
         public AccountingGeneralLedger GeneralLedger { get; set; }
-        public List<AcountingDetailed> AcountingDetaileds { get; set; } = [];
+        public ICollection<AcountingDetailed> AcountingDetaileds { get; set; } = [];
     }
 
 }

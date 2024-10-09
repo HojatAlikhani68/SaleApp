@@ -11,7 +11,7 @@ namespace Sale.Domain.Entities.Accounting
         public string Attachment { get; set; }
         public bool IsLock { get; set; }
         public AccountingYear Year { get; set; }        
-        public List<AccountingDoucumentItem> DoucumentItems { get; set; } = [];
+        public ICollection<AccountingDoucumentItem> DoucumentItems { get; set; } = [];
     }
 
 }

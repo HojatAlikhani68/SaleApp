@@ -13,8 +13,8 @@ namespace Sale.Domain.Entities.Suppliers
         public string Email { get; set; }
         public string WebSiteUrl { get; set; }
 
-        public List<Address> Addresses { get; set; }
-        public List<Product> Products { get; set; } = [];
+        public ICollection<Address> Addresses { get; set; }
+        public ICollection<Product> Products { get; set; } = [];
 
     }
 }

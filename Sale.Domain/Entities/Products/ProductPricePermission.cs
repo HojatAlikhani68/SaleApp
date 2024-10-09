@@ -5,7 +5,7 @@ namespace Sale.Domain.Entities.Products
     public class ProductPricePermission : BaseEntity<int>
     {
         public DateTime ExpireDate { get; set; }
-        public List<ProductPrice> ProductPrices { get; set; }
+        public ICollection<ProductPrice> ProductPrices { get; set; }
     }
 
 

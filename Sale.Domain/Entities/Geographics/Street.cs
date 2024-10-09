@@ -6,7 +6,7 @@ namespace Sale.Domain.Entities.Geographics
     {
         public string SecondaryName { get; set; }
         public float Width { get; set; }
-        public List<Area> Areas { get; set; } = [];
-        public List<Alley> Alleys { get; set; } = [];
+        public ICollection<Area> Areas { get; set; } = [];
+        public ICollection<Alley> Alleys { get; set; } = [];
     }
 }

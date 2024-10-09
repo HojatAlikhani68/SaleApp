@@ -19,7 +19,7 @@ namespace Sale.Domain.Entities.Customers
         public bool IsLegal { get; set; } 
         public string Image { get; set; }
         public CustomerGroup PhoneNumber { get; set; }
-        public List<Address> Address { get; set; } = [];
+        public ICollection<Address> Address { get; set; } = [];
 
     }
 

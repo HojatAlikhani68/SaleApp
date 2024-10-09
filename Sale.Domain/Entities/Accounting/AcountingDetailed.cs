@@ -6,7 +6,7 @@ namespace Sale.Domain.Entities.Accounting
     {
         public string Code { get; set; }
         public string Name { get; set; }
-        public List<AccountingPayableLedger> PayableLedgers { get; set; } = [];
+        public ICollection<AccountingPayableLedger> PayableLedgers { get; set; } = [];
     }
 
 }

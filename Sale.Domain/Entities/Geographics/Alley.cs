@@ -3,7 +3,7 @@
     public class Alley : BaseGeographic
     {
         public string SecondaryName { get; set; }
-        public List<Address> Addresses { get; set; } = [];
-        public List<Street> Streets { get; set; } = [];
+        public ICollection<Address> Addresses { get; set; } = [];
+        public ICollection<Street> Streets { get; set; } = [];
     }
 }

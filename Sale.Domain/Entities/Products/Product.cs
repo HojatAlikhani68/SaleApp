@@ -3,7 +3,7 @@ using Sale.Domain.Entities.Discounts;
 using Sale.Domain.Entities.Promotions;
 using Sale.Domain.Entities.Suppliers;
 using Sale.Domain.Enumerations;
-using SaleApp.Shared;
+using SaleApp.Shared.Structures;
 
 namespace Sale.Domain.Entities.Products
 {
@@ -18,10 +18,10 @@ namespace Sale.Domain.Entities.Products
         public DateOnly ProductionDate { get; set; }
         public ProductStatus Status { get; set; }
         public Supplier Supplier { get; set; }
-        public List<ProductUnit> Units { get; set; }
+        public ICollection<ProductUnit> Units { get; set; }
         public ProductCategory ProductCategory { get; set; }
-        public List<Promotion> Promotions { get; set; } = [];
-        public List<Discount> Discounts { get; set; } = [];
+        public ICollection<Promotion> Promotions { get; set; } = [];
+        public ICollection<Discount> Discounts { get; set; } = [];
     }
 
 }
