@@ -7,9 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Contracts\" />
-    <Folder Include="Enumerations\" />
+    <Folder Include="Entities\Sellers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Entities\Shippings\" />
+    <Folder Include="Entities\Cart\" />
+    <Folder Include="Entities\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GeoCoordinate.NetCore" Version="1.0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaleApp.Shared\SaleApp.Shared.csproj" />
   </ItemGroup>
 
 </Project>
