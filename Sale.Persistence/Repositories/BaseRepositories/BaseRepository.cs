@@ -24,7 +24,7 @@ namespace Sale.Persistence.Repositories.BaseRepositories
 
         public async Task<IEnumerable<TEntity>> GetAllAsync(CancellationToken cancellationToken = default)
         {
-            return await _dbSet.ToListAsync(cancellationToken);
+            return await _dbSet.ToICollectionAsync(cancellationToken);
         }
 
         public async Task<TEntity> GetByIdAsync(object id, CancellationToken cancellationToken = default)
@@ -84,7 +84,7 @@ namespace Sale.Persistence.Repositories.BaseRepositories
 
         public async Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken = default)
         {
-            return await _dbSet.Where(predicate).ToListAsync(cancellationToken);
+            return await _dbSet.Where(predicate).ToICollectionAsync(cancellationToken);
         }
         public async Task<int> CountAsync(CancellationToken cancellationToken = default)
         {

@@ -26,12 +26,12 @@ namespace SaleApp.Shared.Extentions
 
             return value.ToString(); // اگر توضیحی وجود نداشته باشد، نام خود enum را برمی‌گرداند
         }
-        public static List<EnumInfo> ToEnumInfoList<T>() where T : Enum
+        public static ICollection<EnumInfo> ToEnumInfoICollection<T>() where T : Enum
         {
             var enumType = typeof(T);
             var enumValues = Enum.GetValues(enumType);
 
-            var enumInfoList = new List<EnumInfo>();
+            var enumInfoICollection = new ICollection<EnumInfo>();
 
             foreach (var value in enumValues)
             {
@@ -39,14 +39,14 @@ namespace SaleApp.Shared.Extentions
                 var descriptionAttribute = fieldInfo.GetCustomAttribute<DescriptionAttribute>();
                 var description = descriptionAttribute != null ? descriptionAttribute.Description : string.Empty;
 
-                enumInfoList.Add(new EnumInfo(
+                enumInfoICollection.Add(new EnumInfo(
                     Id: Convert.ToInt32(value), // شناسه (ID) به عنوان مقدار عددی enum
                     Name: value.ToString(),      // نام (Name) مقدار enum
                     Description: description      // توضیحات (Description)
                 ));
             }
 
-            return enumInfoList;
+            return enumInfoICollection;
         }
     }
 }

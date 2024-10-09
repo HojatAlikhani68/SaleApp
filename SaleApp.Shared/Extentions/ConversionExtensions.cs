@@ -35,22 +35,22 @@
 
             return destination;
         }
-        public static List<TDestination> ConvertToList<TSource, TDestination>(this IEnumerable<TSource> sourceList)
+        public static ICollection<TDestination> ConvertToICollection<TSource, TDestination>(this IEnumerable<TSource> sourceICollection)
         {
-            if (sourceList == null)
+            if (sourceICollection == null)
             {
-                throw new ArgumentNullException(nameof(sourceList), "Source list cannot be null");
+                throw new ArgumentNullException(nameof(sourceICollection), "Source ICollection cannot be null");
             }
 
-            var destinationList = new List<TDestination>();
+            var destinationICollection = new ICollection<TDestination>();
 
-            foreach (var source in sourceList)
+            foreach (var source in sourceICollection)
             {
                 var destination = source.ConvertTo<TSource, TDestination>();
-                destinationList.Add(destination);
+                destinationICollection.Add(destination);
             }
 
-            return destinationList;
+            return destinationICollection;
         }
         public static TDestination ConvertTo<TDestination>(this object source)
         {
@@ -73,22 +73,22 @@
 
             return destination;
         }
-        public static List<TDestination> ConvertToD<TDestination>(this IEnumerable<object> sourceList)
+        public static ICollection<TDestination> ConvertToD<TDestination>(this IEnumerable<object> sourceICollection)
         {
-            if (sourceList == null)
+            if (sourceICollection == null)
             {
-                throw new ArgumentNullException(nameof(sourceList), "Source list cannot be null");
+                throw new ArgumentNullException(nameof(sourceICollection), "Source ICollection cannot be null");
             }
 
-            var destinationList = new List<TDestination>();
+            var destinationICollection = new ICollection<TDestination>();
 
-            foreach (var source in sourceList)
+            foreach (var source in sourceICollection)
             {
                 var destination = source.ConvertToDynamic<TDestination>();
-                destinationList.Add(destination);
+                destinationICollection.Add(destination);
             }
 
-            return destinationList;
+            return destinationICollection;
         }
     }
 }

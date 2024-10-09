@@ -1,12 +1,23 @@
-﻿namespace Sale.Domain.Enumerations
+﻿using System.ComponentModel;
+
+namespace Sale.Domain.Enumerations
 {
     public enum OrderStatus : byte
     {
-        Unknown,
+        UnKnown,
+        [Description("در انتظار")]
         Pending = 1,
-        Confirmed = 2,
-        Shipped = 3,
-        Delivered = 4,
-        Canceled = 5
+        [Description("تایید شده")]
+        Confirmed = 2,  
+        [Description("ارسال شده")]
+        Shipped = 3, 
+        [Description("تحویل داده شده")]
+        Delivered = 4,  
+        [Description("لغو شده")]
+        Cancelled = 5,  
+        [Description("مرجوع شده")]
+        Returned = 6,
+
+        
     }
 }
