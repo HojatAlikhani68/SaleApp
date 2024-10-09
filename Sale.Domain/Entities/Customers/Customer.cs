@@ -1,5 +1,6 @@
 ﻿using Sale.Domain.Entities.Base;
 using Sale.Domain.Entities.Geographics;
+using Sale.Domain.Entities.Orders;
 using Sale.Domain.Enumerations;
 
 namespace Sale.Domain.Entities.Customers
@@ -20,6 +21,7 @@ namespace Sale.Domain.Entities.Customers
         public string Image { get; set; }
         public CustomerGroup PhoneNumber { get; set; }
         public ICollection<Address> Address { get; set; } = [];
+        public ICollection<Order> Orders { get; set; } = [];
 
     }
 
