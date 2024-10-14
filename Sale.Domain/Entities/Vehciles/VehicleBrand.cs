@@ -1,6 +1,6 @@
 ﻿using Sale.Domain.Entities.Base;
 
-namespace Sale.Domain.Entities.Vehciles
+namespace Sale.Domain.Entities.DistributionTeams
 {
     public class VehicleBrand : BaseEntity<short>
     {

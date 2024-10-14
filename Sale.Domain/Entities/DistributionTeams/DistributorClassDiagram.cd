@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sale.Domain.Entities.DistributionTeams.Visitor">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\DistributionTeams\Visitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.DistributionTeams.Salesman">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\DistributionTeams\Salesman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.DistributionTeams.Distributor">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\DistributionTeams\Distributor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.DistributionTeams.DistributionTeam">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAACAAAAAAAAQAAAIAAAAA=</HashCode>
+      <FileName>Entities\DistributionTeams\DistributionTeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.DistributionTeams.Cashier">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\DistributionTeams\Cashier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.Base.BaseEntity&lt;TKey&gt;" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACEAAAAAAAAAAAEAACBAQAAAAAAAAACgAAAQIAAAE=</HashCode>
+      <FileName>Entities\Base\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.DistributionTeams.Driver">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAAYAAAIAAAAA=</HashCode>
+      <FileName>Entities\DistributionTeams\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

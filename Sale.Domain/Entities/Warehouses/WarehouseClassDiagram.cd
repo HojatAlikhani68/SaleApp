@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="Sale.Domain.Entities.Warehouses.Warehouse">
+    <Position X="8.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAgAAAEAAAAAQCAAAAAAACAQAAAAAEAAA=</HashCode>
+      <FileName>Entities\Warehouses\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.Warehouses.WarehouseDocument">
+    <Position X="2.75" Y="4" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAFAAEAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAQAA=</HashCode>
+      <FileName>Entities\Warehouses\WarehouseDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.Warehouses.WarehouseDocumentItem">
+    <Position X="3.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACAAAIIAQAAAAAAAAAAAAAAAAAgAAAAIA=</HashCode>
+      <FileName>Entities\Warehouses\WarehouseDocumentItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.Products.ProductInventory">
+    <Position X="0.5" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAiAAAAAA=</HashCode>
+      <FileName>Entities\Products\ProductInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

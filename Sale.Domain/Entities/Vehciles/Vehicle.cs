@@ -1,9 +1,10 @@
 ﻿using Sale.Domain.Entities.Base;
+using Sale.Domain.Entities.DistributionTeams;
 using Sale.Domain.Enumerations;
 using SaleApp.Shared.Structures;
 using System.IO;
 
-namespace Sale.Domain.Entities.Vehciles
+namespace Sale.Domain.Entities.DistributionTeams
 {
     public class Vehicle : BaseEntity<short>
     {

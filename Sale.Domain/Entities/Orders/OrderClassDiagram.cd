@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Sale.Domain.Entities.Orders.Order">
+    <Position X="2" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAEBAAAEQQFQAAAAAAEAAAAAAEAABBAAAgAgABCAKAA=</HashCode>
+      <FileName>Entities\Orders\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale.Domain.Entities.Orders.OrderItem">
+    <Position X="6" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAEgBAAAAA=</HashCode>
+      <FileName>Entities\Orders\OrderItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Order" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sale.Domain.Entities.Base.BaseEntity&lt;TKey&gt;" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACEAAAAAAAAAAAEAACBAQAAAAAAAAACgAAAQIAAAE=</HashCode>
+      <FileName>Entities\Base\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
