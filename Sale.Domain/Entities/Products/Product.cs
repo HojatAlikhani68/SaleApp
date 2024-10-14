@@ -1,13 +1,12 @@
 ﻿using Sale.Domain.Entities.Base;
 using Sale.Domain.Entities.Discounts;
-using Sale.Domain.Entities.Promotions;
 using Sale.Domain.Entities.Suppliers;
 using Sale.Domain.Enumerations;
 using SaleApp.Shared.Structures;
 
 namespace Sale.Domain.Entities.Products
 {
-    public class Product : BaseImportantEntity<int>
+    public class Product : BaseEntity<int>
     {
         public required string Name { get; set; }
         public decimal Tax { get; set; }
@@ -17,10 +16,12 @@ namespace Sale.Domain.Entities.Products
         public ushort UntilExpiration { get; set; }
         public DateOnly ProductionDate { get; set; }
         public ProductStatus Status { get; set; }
+
         public Supplier Supplier { get; set; }
-        public ICollection<ProductUnit> Units { get; set; }
         public ProductCategory ProductCategory { get; set; }
-        public ICollection<Promotion> Promotions { get; set; } = [];
+
+        public ICollection<ProductUnit> Units { get; set; } = [];
+        public ICollection<Reward> Promotions { get; set; } = [];
         public ICollection<Discount> Discounts { get; set; } = [];
     }
 

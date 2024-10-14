@@ -2,7 +2,7 @@
 
 namespace Sale.Domain.Entities.Accounting
 {
-    public class AccountingPayableLedger : BaseImportantEntity<short>
+    public class AccountingPayableLedger : BaseEntity<short>
     {
         public string Code { get; set; }
         public string Name { get; set; }

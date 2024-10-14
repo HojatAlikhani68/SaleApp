@@ -1,4 +1,6 @@
-﻿namespace Sale.Domain.Enumerations
+﻿using System.Runtime.CompilerServices;
+
+namespace Sale.Domain.Enumerations
 {
     public enum DriverType : byte
     {

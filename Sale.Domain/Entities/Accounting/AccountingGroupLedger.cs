@@ -2,7 +2,7 @@
 
 namespace Sale.Domain.Entities.Accounting
 {
-    public class AccountingGroupLedger : BaseImportantEntity<byte>
+    public class AccountingGroupLedger : BaseEntity<byte>
     {
         public string Code { get; set; }
         public string Name { get; set; }

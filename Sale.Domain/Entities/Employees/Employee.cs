@@ -6,7 +6,7 @@ using Sale.Domain.Enumerations;
 
 namespace Sale.Domain.Entities.Employees
 {
-    public class Employee:BaseDocumentEntity<int>
+    public class Employee:BaseEntity<int>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
